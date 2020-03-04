@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451C593802768145226A3E6C /* Pods_Test_Mova_IO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D9EFE556EE6A9C337236EF /* Pods_Test_Mova_IO.framework */; };
+		70453CAF240FF3AD00984AED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 70453CAE240FF3AD00984AED /* README.md */; };
 		70D573C9240EDB40003DF51E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573C8240EDB40003DF51E /* AppDelegate.swift */; };
 		70D573CB240EDB40003DF51E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573CA240EDB40003DF51E /* SceneDelegate.swift */; };
-		70D573CD240EDB40003DF51E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573CC240EDB40003DF51E /* ViewController.swift */; };
-		70D573D0240EDB40003DF51E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D573CE240EDB40003DF51E /* Main.storyboard */; };
+		70D573CD240EDB40003DF51E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573CC240EDB40003DF51E /* SearchViewController.swift */; };
 		70D573D2240EDB4B003DF51E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D573D1240EDB4B003DF51E /* Assets.xcassets */; };
 		70D573D5240EDB4B003DF51E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D573D3240EDB4B003DF51E /* LaunchScreen.storyboard */; };
+		70D573DD240EE50F003DF51E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573DC240EE50F003DF51E /* PhotoViewController.swift */; };
+		70D573DF240EE52F003DF51E /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573DE240EE52F003DF51E /* HistoryItem.swift */; };
+		70D573E1240EE541003DF51E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573E0240EE541003DF51E /* History.swift */; };
+		70D573E3240EE552003DF51E /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573E2240EE552003DF51E /* Constans.swift */; };
+		70D573E5240EE562003DF51E /* FlickrPhotosSearchResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573E4240EE562003DF51E /* FlickrPhotosSearchResponce.swift */; };
+		70D573E7240EE574003DF51E /* FlickrPhotosGetSizesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573E6240EE574003DF51E /* FlickrPhotosGetSizesResponse.swift */; };
+		70D573E9240EE585003DF51E /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573E8240EE585003DF51E /* Flickr.swift */; };
+		70D573EB240EE599003DF51E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D573EA240EE599003DF51E /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15D9EFE556EE6A9C337236EF /* Pods_Test_Mova_IO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Mova_IO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70453CAE240FF3AD00984AED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		70D573C5240EDB40003DF51E /* Test Mova IO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Mova IO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D573C8240EDB40003DF51E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70D573CA240EDB40003DF51E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70D573CC240EDB40003DF51E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		70D573CF240EDB40003DF51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70D573CC240EDB40003DF51E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		70D573D1240EDB4B003DF51E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70D573D4240EDB4B003DF51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70D573D6240EDB4B003DF51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D573DC240EE50F003DF51E /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		70D573DE240EE52F003DF51E /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
+		70D573E0240EE541003DF51E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		70D573E2240EE552003DF51E /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		70D573E4240EE562003DF51E /* FlickrPhotosSearchResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotosSearchResponce.swift; sourceTree = "<group>"; };
+		70D573E6240EE574003DF51E /* FlickrPhotosGetSizesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotosGetSizesResponse.swift; sourceTree = "<group>"; };
+		70D573E8240EE585003DF51E /* Flickr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+		70D573EA240EE599003DF51E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		7D29618FFF23956B9F97BA7A /* Pods-Test Mova IO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Mova IO.release.xcconfig"; path = "Target Support Files/Pods-Test Mova IO/Pods-Test Mova IO.release.xcconfig"; sourceTree = "<group>"; };
+		F4E2389E071F1716947F2474 /* Pods-Test Mova IO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Mova IO.debug.xcconfig"; path = "Target Support Files/Pods-Test Mova IO/Pods-Test Mova IO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451C593802768145226A3E6C /* Pods_Test_Mova_IO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5F2EA80DFDA8EC4BFDCDB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4E2389E071F1716947F2474 /* Pods-Test Mova IO.debug.xcconfig */,
+				7D29618FFF23956B9F97BA7A /* Pods-Test Mova IO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		70D573BC240EDB3F003DF51E = {
 			isa = PBXGroup;
 			children = (
+				70453CAE240FF3AD00984AED /* README.md */,
 				70D573C7240EDB40003DF51E /* Test Mova IO */,
 				70D573C6240EDB40003DF51E /* Products */,
+				1A5F2EA80DFDA8EC4BFDCDB0 /* Pods */,
+				92BC8247E0B6C937DB3538EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +91,28 @@
 			children = (
 				70D573C8240EDB40003DF51E /* AppDelegate.swift */,
 				70D573CA240EDB40003DF51E /* SceneDelegate.swift */,
-				70D573CC240EDB40003DF51E /* ViewController.swift */,
-				70D573CE240EDB40003DF51E /* Main.storyboard */,
+				70D573CC240EDB40003DF51E /* SearchViewController.swift */,
+				70D573DC240EE50F003DF51E /* PhotoViewController.swift */,
+				70D573DE240EE52F003DF51E /* HistoryItem.swift */,
+				70D573E0240EE541003DF51E /* History.swift */,
+				70D573E2240EE552003DF51E /* Constans.swift */,
+				70D573E4240EE562003DF51E /* FlickrPhotosSearchResponce.swift */,
+				70D573E6240EE574003DF51E /* FlickrPhotosGetSizesResponse.swift */,
+				70D573E8240EE585003DF51E /* Flickr.swift */,
+				70D573EA240EE599003DF51E /* Network.swift */,
 				70D573D1240EDB4B003DF51E /* Assets.xcassets */,
 				70D573D3240EDB4B003DF51E /* LaunchScreen.storyboard */,
 				70D573D6240EDB4B003DF51E /* Info.plist */,
 			);
 			path = "Test Mova IO";
+			sourceTree = "<group>";
+		};
+		92BC8247E0B6C937DB3538EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15D9EFE556EE6A9C337236EF /* Pods_Test_Mova_IO.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70D573D9240EDB4B003DF51E /* Build configuration list for PBXNativeTarget "Test Mova IO" */;
 			buildPhases = (
+				019DF6526FA4B97870F3D97C /* [CP] Check Pods Manifest.lock */,
 				70D573C1240EDB40003DF51E /* Sources */,
 				70D573C2240EDB40003DF51E /* Frameworks */,
 				70D573C3240EDB40003DF51E /* Resources */,
+				F0972E60D6A7D1F704E23B60 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +175,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70453CAF240FF3AD00984AED /* README.md in Resources */,
 				70D573D5240EDB4B003DF51E /* LaunchScreen.storyboard in Resources */,
 				70D573D2240EDB4B003DF51E /* Assets.xcassets in Resources */,
-				70D573D0240EDB40003DF51E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019DF6526FA4B97870F3D97C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Mova IO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0972E60D6A7D1F704E23B60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Mova IO/Pods-Test Mova IO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Mova IO/Pods-Test Mova IO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Mova IO/Pods-Test Mova IO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70D573C1240EDB40003DF51E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D573CD240EDB40003DF51E /* ViewController.swift in Sources */,
+				70D573E5240EE562003DF51E /* FlickrPhotosSearchResponce.swift in Sources */,
+				70D573E1240EE541003DF51E /* History.swift in Sources */,
+				70D573E9240EE585003DF51E /* Flickr.swift in Sources */,
+				70D573CD240EDB40003DF51E /* SearchViewController.swift in Sources */,
+				70D573DD240EE50F003DF51E /* PhotoViewController.swift in Sources */,
+				70D573EB240EE599003DF51E /* Network.swift in Sources */,
 				70D573C9240EDB40003DF51E /* AppDelegate.swift in Sources */,
+				70D573E7240EE574003DF51E /* FlickrPhotosGetSizesResponse.swift in Sources */,
+				70D573DF240EE52F003DF51E /* HistoryItem.swift in Sources */,
+				70D573E3240EE552003DF51E /* Constans.swift in Sources */,
 				70D573CB240EDB40003DF51E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +247,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		70D573CE240EDB40003DF51E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70D573CF240EDB40003DF51E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		70D573D3240EDB4B003DF51E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +374,13 @@
 		};
 		70D573DA240EDB4B003DF51E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E2389E071F1716947F2474 /* Pods-Test Mova IO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M837Z66HVA;
 				INFOPLIST_FILE = "Test Mova IO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +394,13 @@
 		};
 		70D573DB240EDB4B003DF51E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D29618FFF23956B9F97BA7A /* Pods-Test Mova IO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M837Z66HVA;
 				INFOPLIST_FILE = "Test Mova IO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
